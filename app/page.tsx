@@ -14,14 +14,9 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Image 
-                src="/x-breaker-logo.PNG" 
-                alt="X-Breaker Pro Logo" 
-                width={48} 
-                height={48}
-                priority
-                className="rounded-lg"
-              />
+              <div className="w-12 h-12 bg-gradient-xbreaker rounded-lg flex items-center justify-center">
+                <TrendingUp className="w-7 h-7 text-white" />
+              </div>
               <div>
                 <h1 className="text-2xl font-bold gradient-text">X-BREAKER PRO</h1>
                 <p className="text-sm text-xbreaker-secondary font-semibold">BREAK THE LIMIT</p>
