@@ -15,10 +15,11 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Image 
-                src="/x-breaker-logo.PNG" 
+                src="/x-breaker-logo.png" 
                 alt="X-Breaker Pro Logo" 
                 width={48} 
                 height={48}
+                priority
                 className="rounded-lg"
               />
               <div>
