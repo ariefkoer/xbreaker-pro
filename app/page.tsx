@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Image 
-                src="/x-breaker-logo.png" 
+                src="/x-breaker-logo.PNG" 
                 alt="X-Breaker Pro Logo" 
                 width={48} 
                 height={48}
